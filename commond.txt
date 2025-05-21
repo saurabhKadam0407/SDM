@@ -1,0 +1,53 @@
+git init
+git add filename.txt
+
+git status
+
+---after changes
+git add .
+
+---check the diff
+--- will give initial and after changes made in the file 
+
+git diff
+
+----------------
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+=====******=====
+$ git config --global user.email "saurabh07kadam@gmail.com"
+$ git config --global user.name "SaurabhKadam07"
+
+********************************************
+
+$ git config --global user.email "saurabhkadam0402@gmail.com"
+$ git config --global user.name "saurabhKadam0407"
+-----------------------
+$ git commit -m "my 1st commit"
+
+-------------------------------
+
+$ git branch -M main
+
+
+-----------
+$ git remote add origin gitrepositorieURL(html)
+---------------------------
+$ git remote add origin https://github.com/saurabhKadam0407/SDM.git
+
+$ git push -u origin main
+
+$ git pull origin main
+
+
+
+
+
